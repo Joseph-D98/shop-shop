@@ -5,7 +5,7 @@ import { pluralize } from "../../utils/helpers"
 import{ useStoreContext } from '../../utils/GlobalState';
 import {ADD_TO_CART, UPDATE_CART_QUANTITY } from '../../utils/actions';
 import CartItem from "../CartItem";
-import { idbPromise } from '../../utils/helpers';
+
 
 
 function ProductItem(item) {
