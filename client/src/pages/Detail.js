@@ -71,6 +71,7 @@ function Detail() {
       // if product isnt in cart yet add to shopping cart
       idbPromise('cart', 'put', {currentProduct, purchaseQuantity: 1})
     }
+    
   }
 
   const removeFromCart = () => {
