@@ -133,8 +133,8 @@ db.once('open', async () => {
   await User.create({
     firstName: 'Pamela',
     lastName: 'Washington',
-    email: 'pamela@testmail.com',
-    password: 'password12345',
+    email: 'pamela@mail.com',
+    password: 'Pwd12345',
     orders: [
       {
         products: [products[0]._id, products[0]._id, products[1]._id]
@@ -143,10 +143,10 @@ db.once('open', async () => {
   });
 
   await User.create({
-    firstName: 'Elijah',
-    lastName: 'Holt',
-    email: 'eholt@testmail.com',
-    password: 'password12345'
+    firstName: 'Joey',
+    lastName: 'DeFel',
+    email: 'JD@mail.com',
+    password: 'Pwd1234'
   });
 
   console.log('users seeded');
